@@ -1,7 +1,8 @@
 import 'dart:convert';
 import 'dart:typed_data';
 
-import 'package:steel_crypt/PointyCastleN/export.dart';
+import 'package:steel_crypt/steel_crypt.dart';
+import 'package:pointycastle/export.dart';
 
 class AesGcm {
   Uint8List _key32;
